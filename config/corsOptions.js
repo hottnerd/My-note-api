@@ -1,5 +1,5 @@
 const allowedOrigins = [
-    
+    "https://my-note-wvtt.onrender.com"
 ];
 
 const corsOptions = {
