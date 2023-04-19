@@ -34,7 +34,7 @@ app.use(session({
         maxAge: 1000 * 60 * 60 ,
         sameSite : "none",
         secure : true,
-        domain : "https://my-note-wvtt.onrender.com"
+        domain : "onrender.com"
     },
     rolling:true,
     store: MongoStore.create({
