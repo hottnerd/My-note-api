@@ -34,7 +34,7 @@ app.use(session({
         maxAge: 1000 * 60 * 60 ,
         secure : true,
         sameSite : "none",
-        domain : "onrender.com"
+        domain : "test"
     },
     rolling:true,
     store: MongoStore.create({
