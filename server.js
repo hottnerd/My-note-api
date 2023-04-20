@@ -33,7 +33,8 @@ app.use(session({
     cookie:{
         maxAge: 1000 * 60 * 60 ,
         secure : true,
-        sameSite : "none"
+        sameSite : "none",
+        domain : "onrender.com"
     },
     rolling:true,
     store: MongoStore.create({
